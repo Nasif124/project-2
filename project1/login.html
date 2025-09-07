@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+             background-color: blueviolet;
+        }
+         #left{
+            color: white;
+            text-align : center;
+
+            
+         }
+         #right{
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            max-width:250px ;
+            margin:  auto;
+
+            
+            h1{
+                margin: 7px 0;
+                text-align: center;
+                color: blueviolet;
+            }
+            input{
+                border-radius: 20px;
+                padding: 4px;
+                margin: 7px 0;
+                    ;
+            }
+            input::placeholder{
+                padding: 5px;
+                font-size: 80%;
+                    margin: 7px 0;
+
+            }
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                margin: 10px 0;
+                color: blueviolet;
+                font-weight: bold;
+                text-align: left;
+            }
+            Button{
+                margin-top: 10px;
+                border-radius: 5px;
+                border: 0;
+                color: white;
+                padding: 4px 22px;
+            }
+            
+         }
+         @media screen and (min-width:670px){
+         main{
+            margin-top: 100px;
+            display:flex;
+            justify-content: space-between;
+            
+         }
+        #right{
+            margin: 0;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <!-- left components -->
+        <section id="left">
+            <h1>Engitech</h1>
+            <p>We Build We Train and We Deploy</p>
+
+        </section 
+       <!-- right components -->
+         <section id="right">
+            <h1>Login</h1>
+            <input type="text" placeholder="User Name"><br>
+            <input type="password" placeholder="Password"><br>
+            <a href="#">Forgot Password?</a><br>
+            <button style="background-color:blueviolet;">Login</button>
+            <button style="background-color: red;">Signup</button>
+        
+         </section>
+    </main>
+    
+</body>
+</html>
