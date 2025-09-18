@@ -1,0 +1,52 @@
+header{
+    nav{
+        li{
+            a{
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            text-decoration: wavy;
+            justify-content: flex-end;
+            background-color: white;
+            border-radius: 15px;
+            padding: 5px;
+            justify-content: left;
+            text-align: center;
+            display: inline-block;
+            }
+        }
+    
+    }
+}
+body{
+    background-color: orange;
+    font-size: larger;
+}
+img {text-align: center;
+ 
+}
+menu{
+    text-align: center;
+    h1{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:red;
+        padding: 10px;
+        background-color: black;
+    
+          
+    }
+}
+about{
+    color: white;
+}
+contact{
+    display: grid;
+    background-color: white;
+    padding: 25px;
+    button{
+        background-color: orange;
+        color: white;
+        border-radius: 6px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+}
